@@ -1,0 +1,32 @@
+html {
+  background-color:grey;
+  font-family:Exo;
+}
+
+.header {
+  position:relative;
+  margin-bottom:50px;
+}
+
+.link {
+  position:relative;
+  display:inline;
+  background-color:black;
+  color:white;
+  padding:10px 20px 0px 20px;
+  text-decoration:none;
+  border-radius: 10px 10px 0 0;
+  margin:5px;
+}
+
+.linkbar {
+  border-bottom:3px solid black;
+}
+
+.footer {
+  border-top:1px solid black;
+  clear:both;
+  bottom:0px;
+  width:100%;
+  position:fixed;
+}
