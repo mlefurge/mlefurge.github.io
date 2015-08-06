@@ -8,14 +8,13 @@ html {
   margin-bottom:50px;
 }
 
-.link {
+.pages {
   position:relative;
-  display:inline;
+  display:inline-block;
   background-color:black;
   padding:10px 20px 0px 20px;
-  text-decoration:none;
   border-radius: 10px 10px 0 0;
-  margin:5px;
+  margin:5px 5px 0px 5px;
 }
 
 .linkbar {
@@ -28,4 +27,14 @@ html {
   bottom:0px;
   width:100%;
   position:fixed;
+  background:grey;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+.subheader {
+  margin-top:-40px;
+  margin-bottom:10px;
 }
