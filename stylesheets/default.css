@@ -38,3 +38,13 @@ a:hover {
   margin-top:-40px;
   margin-bottom:10px;
 }
+
+.displayex {
+  width:50%;
+  height:auto;
+}
+
+.displayhead{
+  border:1px solid black;
+  font-weight: bold;
+}
