@@ -2,6 +2,9 @@ html {
   background-color:grey;
   font-family:Exo;
 }
+body{
+  margin: 5%;
+}
 
 .header {
   position:relative;
@@ -28,6 +31,7 @@ html {
   width:100%;
   position:fixed;
   background:grey;
+  margin-top: 3%;
 }
 
 a:hover {
