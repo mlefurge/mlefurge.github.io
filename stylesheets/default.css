@@ -1,38 +1,49 @@
 html {
-  background-color:grey;
-  font-family:Exo;
+  font-family:'Courier New';
 }
 body{
   margin: 5%;
 }
 
+.mainhead{
+color:#225378;
+}
+
+.mainhead2{
+color:#611427;
+}
+
+.mainhead3{
+
+}
+
 .header {
-  position:relative;
+  text-align: center;
   margin-bottom:50px;
 }
 
 .pages {
   position:relative;
   display:inline-block;
-  background-color:black;
   padding:10px 20px 0px 20px;
   border-radius: 10px 10px 0 0;
-  margin:5px 5px 0px 5px;
+  margin:5px 200px 0px 200px;
+  border-color:#374140;
+  border-style:solid solid none solid;
 }
 
 .linkbar {
-  border-bottom:3px solid black;
+  border-bottom:3px solid #374140;
+  text-align:center;
+
 }
 
-.footer {
-  border-top:1px solid black;
-  clear:both;
-  bottom:0px;
-  width:100%;
-  position:fixed;
-  background:grey;
-  margin-top: 3%;
+.indexbody {
+  text-align:center;
+  padding-top:15px;
+
 }
+
 
 a:hover {
   text-decoration:none;
@@ -51,4 +62,21 @@ a:hover {
 .displayhead{
   border:1px solid black;
   font-weight: bold;
+}
+
+
+.footerimg {
+  width:30px;
+  height:auto;
+}
+
+.footerlink {
+  position:fixed;
+  bottom:10px;
+  text-align:center;
+  width:87.5%;
+}
+
+.footer {
+
 }
