@@ -87,3 +87,34 @@ a:hover {
 .resume {
   text-align: center;
 }
+
+.cheatsheet {
+display:block;
+}
+
+.cheatsheethead {
+display:block;
+
+
+}
+
+.cheatsheetbody {
+  background:#91aa9d;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#leftcolumn {
+  float: left;
+  display: inline-block;
+  width: 45%;
+  margin: 2%;
+}
+
+
+#rightcolumn {
+  float: right;
+  display: inline-block;
+  width: 45%;
+  margin: 2%;
+}
