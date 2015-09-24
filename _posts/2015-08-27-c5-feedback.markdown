@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Cultural Entry 4 - Feedback"
+date:   2015-08-27
+categories: blog entry
+---
+It’s like they say, “pairing is caring.” Wait, that doesn’t sound right... Anyway, if it wasn’t apparent in the Phase 0 Handbook or the DBC website or the DBC blog, its apparent now. Pairing is a big part of our curriculum.  I’ve never had a strong opinion one way or another when it came to working by myself or working with others. I find that both have their merits and I can be productive in both settings. With that said, I’ve really enjoyed the pairing sessions I’ve had so far during Phase 0.
+
+One of the great things I’ve found about coding so far is that there often isn’t one correct way to do something. While there might be ways that are more efficient or ways that are fit the design of the program better, there are still numerous ways to get the same answer. Pairing on the challenges has introduced me to other people’s trains of thought and how they logically think through the solution.  One of the most beneficial things has been being able to see how other people think. It’s amazing to pair with people and listen to their strategies and then compare them to my own. More often than not, I find myself saying, wow, that’s a really good point, I need to remember that for the next time I’m working by myself.
+
+Solving these challenges isn’t just about getting to the correct answer. It’s also about how you got to that answer and the logical steps you took. While it’s great when you and your pair are both on the same page, it’s also exciting when you aren’t.  I often find that I learn the most when I’m paired up with someone who does things completely different from me. They introduce me to new methods and new ways to approach a problem. While it can be a little frustrating at first, it ends up being a very rewarding pairing session.
+
+Giving and receiving feedback is not all that new to me. At my last job, they had a very elaborate review process. It required writing and receiving very thorough feedback forms for any project you worked on. My old employer’s feedback process has a very similar feel to the feedback at DBC. The focus is on meaningful and actionable feedback. A lot of times, feedback can have the opposite affect than it should. It can often discourage people or frustrate people. No one likes hearing about the things they need to improve on. However, when someone writes me a piece of constructive feedback that is specific, actionable and kind, I don’t feel bad about myself or angry.
+
+The feedback I’ve received so far has been very helpful. I’ve learned that sometimes I need to speak up more. I need to be more vocal and have my voice heard.  A lot of times when I am pairing, the last thing I want to do is to be rude, talk too much, and take over the conversation. As a result, I come off as shy and maybe not contributing as much as I should. Going forward, I know that I need to make more efforts to speak up. I don’t want my pair to think like I’m not contributing or like they have to do most of the work. Receiving the feedback encourages me to be a better pair and a better programmer.
+
+Overall, I think the combination of pairing with immediate feedback is a great way for us to learn. It’s an amazing opportunity for us to learn about how other people work and also to hear about how other people perceive how we work.

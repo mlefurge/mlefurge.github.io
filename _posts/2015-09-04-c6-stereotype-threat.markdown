@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Cultural Entry 5 - Stereotype Threat"
+date:   2015-09-04
+categories: blog entry
+---
+My name is Matthew LeFurge and if the only thing you know me by is my name, email address or sound of my voice, you might think I am a white male, with maybe some French Canadian roots.  You probably wouldn’t have guessed that I was born in Korea and moved to the US when I was four months old to live with the family that adopted me. Growing up with two white parents in a predominately white rural town gives you a different perspective on things.
+
+This whole idea of stereotype threat both amazes me and yet does not surprise me one bit. No one likes to be judged based purely on some visible characteristic. Right, wrong, or indifferent, it’s just not fair. You would think that an irrational snap judgment about you based on no actual proof or knowledge wouldn’t be that big of a deal. After all, sticks and stones will break my bones, but words will never hurt me. Unfortunately, that childhood saying only holds so much weight. Stereotypes can be awful and even though they are just words, they can be very powerful.
+
+What amazes me is that how something so inaccurate, when said with hate, can have such a dramatic impact on you as a person. However, after reading more about Dr. Claude Steele’s theory and evidence, I started to think to myself, wow, this actually doesn’t surprise me one bit.  It almost reminds me of the ideas behind the fixed mindset. When you have an idea in your head, whether it’s a hurtful stereotype or the idea that your intelligence is fixed, it can have a big impact on your performance. When you aren’t on the receiving end of a stereotype, you might not be thinking about them that much. However, when a stereotype is being directed at you, and odds are it’s by more than one person and over the course of your life, it becomes easy to see how it stereotypes can eat away at someone. It becomes less surprising that someone would actually believe they fit a certain stereotype.

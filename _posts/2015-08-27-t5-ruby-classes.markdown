@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Technical Entry 5 - Ruby Classes"
+date:   2015-08-27
+categories: blog entry
+---
+In 2008 I graduated college with a degree in accounting. That same year, I took a job at an accounting firm in their corporate taxation group.  I thought to myself, could I really handle all the excitement that this next stage in my life would bring? Turns out, I could. Surprisingly though, those seven years were actually filled with some excitement. Sometimes the excitement came in in ways you might think (i.e., busy season crunch time) and sometimes it was in ways that would surprise you (i.e., an all expenses paid trip to Disney World).  For better or for worse, even after leaving the profession, taxes remain a part of my life. Whether its through family members asking me for tax advice or my fiancé getting her LLM in Taxation, I can’t seem to leave taxes behind.  I figure, what better way to bridge the last phase of my life with the next phase of my life than to make a Ruby Class example out of corporate tax!
+
+Just like Ruby, the Internal Revenue Code is almost like speaking another language. It’s complex, convoluted, and terribly boring. But that’s also the reason why I was lucky enough to have a job when I graduated. I’ll try to keep the tax examples basic so that I can focus my time on explaining classes. Also, I apologize to any other tax accountants out there reading this entry.
+
+Besides an intense passion for taxes and Ruby, why would you ever want to create a separate class in Ruby for taxes? What if you were trying to run some estimated tax calculations for a handful of entities? If you didn’t want to purchase expensive tax preparation software, you could write your own. You could create a class CorpTax and each instance of that class could call upon methods and variables that would calculate things such as your research and development tax credit, your depreciation expense, or even store things such as tax rates or tax credit carryovers from prior years.
+
+Use the following explanation and code example below to see how we create this exciting new class.
+
+The first step in creating the CorpTax class is to define the class. For non-tax folks out there, book income is one of the important starting points for corporate taxation. Therefore, you might want to initialize each object with book income. After setting up the initialization method, lets create an instance variable equal to book income. That way, if we need to access book income later on, we can use the instance variable. Another very important component of income tax is the tax rate. Since tax rates can vary, based on location or income levels, lets create a setter method for the tax rate. This gives us the ability to easily change the tax rate if we need to.  Finally, lets create a method that calculates a tax deduction. Let’s create the meals & entertainment tax deduction. Technically, it’s an add-back but lets remember that this is a coding program and not a tax course.
+
+<script src="https://gist.github.com/mlefurge/fb7afa3bab2ea029cac3.js"></script>
+
+For all you other tax accountants who are also aspiring Ruby programmers, feel free to create more methods representing all of the other fun and exciting tax calculations. Once you have done that, you can create different instances of the CorpTax class and use your methods to calculate the taxable income and tax for anything you want.
+

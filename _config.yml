@@ -1,0 +1,12 @@
+# Site settings
+title: def matts_site(ruby, html, JS)
+email: matthew.lefuge@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  For all things Matt LeFurge. Aspiring web developer and retired accountant. Wannabe chef, rockstar and fantasy sports guru.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mlefurge.github.io" # the base hostname & protocol for your site
+twitter_username: furge6
+github_username:  mlefurge
+
+# Build settings
+markdown: kramdown

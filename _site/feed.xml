@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>def matts_site(ruby, html, JS)</title>
+    <description>For all things Matt LeFurge. Aspiring web developer and retired accountant. Wannabe chef, rockstar and fantasy sports guru.
+</description>
+    <link>http://mlefurge.github.io/</link>
+    <atom:link href="http://mlefurge.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 22 Sep 2015 09:44:03 -0400</pubDate>
+    <lastBuildDate>Tue, 22 Sep 2015 09:44:03 -0400</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Technical Entry 8 - Big O Notation</title>
+        <description>&lt;p&gt;As an aspiring computer programmer, I’m not sure if I should be ashamed or embarrassed, but before today I had never heard of Big O Notation. It also didn’t help that when I did a quick Google search, I was terrified by the results.  Every result seemed to have some complicated graph and a bunch of equations with letters and squiggly lines. There were even a few one-line definitions that threw me for a loop.  Am I that dense that I can’t even begin to understand a fundamental concept in computer programming and mathematics?&lt;/p&gt;
+
+&lt;p&gt;After doing a little more digging and a lot more thinking, I believe that I have pieced together enough explanations to understand the basic concept being Big O notation. In a non-intimidating, easy to read and brief sentence, I would describe Big O notation as a way to measure how efficiently an algorithm runs given different inputs.&lt;/p&gt;
+
+&lt;p&gt;Okay, so what about all those equations and graphs? Well, the equations and letters represent the different efficiencies of algorithms. I think the best way to understand it is by looking at a few examples. I’ve provided a few of the more common orders of growth below.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;O(1) – Constant time&lt;/strong&gt;&lt;br /&gt;&amp;lt;/br&amp;gt;
+If you see something like “this function runs in O(1) time”, all it’s really saying is that the efficiency of the algorithm remains constant. No matter how big your input is, the algorithm will run in the same amount of time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;O(N) – Linear time&lt;/strong&gt;&lt;br /&gt;&amp;lt;/br&amp;gt;
+If something runs in O(N) time, it means that the algorithm performance is directly proportional (i.e., linearly) to the size of the input .&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;O(N&lt;sup&gt;2&lt;/sup&gt;) – Quadratic time&lt;/strong&gt;&lt;br /&gt;&amp;lt;/br&amp;gt;
+Something that runs in quadratic time means the performance is directly proportional to the square of the size of the input.&lt;/p&gt;
+
+&lt;p&gt;There are many other notations but that’s a general idea of how Big O notation works. One thing to keep in mind as you think about Big O notation is that it is calculated based on the approximate worst-case performance. For example, if your program is searching through an array for a number, it assumes it won’t find what it’s looking for in the first element. It will actually assume that it won’t find what it’s looking for at all.&lt;/p&gt;
+
+&lt;p&gt;Here is a link to a &lt;a href=&quot;http://bigocheatsheet.com/&quot;&gt; cheat sheet&lt;/a&gt; that shows types of operations / algorithms and their respective big-o complexities. Enjoy!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 17 Sep 2015 00:00:00 -0400</pubDate>
+        <link>http://mlefurge.github.io/blog/entry/2015/09/17/t8-tech.html</link>
+        <guid isPermaLink="true">http://mlefurge.github.io/blog/entry/2015/09/17/t8-tech.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>entry</category>
+        
+      </item>
+    
+      <item>
+        <title>Cultural Entry 7 - Conflict</title>
+        <description>&lt;p&gt;I tend to avoid conflicts and I don’t really enjoy heated confrontations.  However, despite my efforts, there are times when conflict cannot be avoided. Let me tell you a story about a time where I nearly dropped out of college and stopped talking to my parents.&lt;/p&gt;
+
+&lt;p&gt;I was a freshman in college and no idea what I wanted to do with my life. I couldn’t, for the life of me, figure out how all these other 18 year olds were so confident with choosing their college majors and career paths.  I thought I liked science so my original plan was to major in biochemistry. Turns out, I didn’t really like science that much. Not enough to spend the majority of my week in a lab, waiting for chemicals to change colors. Anyway, that got me thinking about what I really wanted to do with my life. Long story short, I made the decision that I wanted to study music production. Now since my current university didn’t offer the type of program I wanted, I nonchalantly went to the registrar’s office and picked up a form that would essentially initiate the drop out process.&lt;/p&gt;
+
+&lt;p&gt;As you can imagine, my parent’s were not too pleased with my decision. In the heat of the moment, all I could think about was how my parents don’t want me to be happy. I spent almost an entire semester talking to professors, researching and trying to figure out what I wanted to do with my life. After I finally found something I really wanted to peruse, it took just one simple conversation for that to all get tossed out the window.  While I thought my parents were trying to prevent me from being happy, they were only showing their concern for my ability to get a job and live a comfortable life. They were worried that I wouldn’t find a job or get stuck at a dead-end job, which would ultimately result in me not being happy.&lt;/p&gt;
+
+&lt;p&gt;It’s tough to say if I would have done anything different. At the time it all seemed like the right thing to do. I wasn’t going to just give up on a career that I felt really passionate about.  I wasn’t one of those kids who applied to college knowing exactly what I wanted to do. So when I finally found something I thought I wanted to do, I didn’t want to let that go. I guess, in the end, it eventually worked itself out.  I’ll never know what would have happened if I perused music but I don’t necessarily regret what happened instead.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 17 Sep 2015 00:00:00 -0400</pubDate>
+        <link>http://mlefurge.github.io/blog/entry/2015/09/17/c8-conflict.html</link>
+        <guid isPermaLink="true">http://mlefurge.github.io/blog/entry/2015/09/17/c8-conflict.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>entry</category>
+        
+      </item>
+    
+      <item>
+        <title>Technical Entry 7 - JavaScript</title>
+        <description>&lt;p&gt;I didn’t think I’d be admitting this, or at least not admitting to it this so soon. I miss Ruby. There, I said it and I’m not ashamed of it. One of the things that I miss most about Ruby is Ruby Documentation. While my love and appreciation for the Ruby Docs wasn’t instantaneous, the more I work in JavaScript, the more I’m reminded of how helpful they became.  While often difficult to read for a beginner, Ruby Docs were a repository of all things Ruby. There were even different versions of Ruby Docs for the different versions of Ruby Software (and even different versions in different languages).&lt;/p&gt;
+
+&lt;p&gt;Maybe it’s because I’ve only been fumbling around with JavaScript for a week, but I can’t seem to find an equalivant resource. It’s not that there aren’t ANY resources out there for JavaScript, it’s just that none of them seem to be put together in as elaborate a manner as the Ruby Docs.  My Google searches generally result in links to Mozilla’s Developer Network (MDN) JavaScript Documents as well as w3school’s JavasScript website.  These are both good resources and I’m sure my appreciation for them will grow in the coming months, but at the end of the day, I sure do miss Ruby and Ruby Dos.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Sep 2015 00:00:00 -0400</pubDate>
+        <link>http://mlefurge.github.io/blog/entry/2015/09/10/t7-javascript.html</link>
+        <guid isPermaLink="true">http://mlefurge.github.io/blog/entry/2015/09/10/t7-javascript.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>entry</category>
+        
+      </item>
+    
+      <item>
+        <title>Cultural Entry 6 - Values</title>
+        <description>&lt;p&gt;The two values that I selected from the “Exploring your values” section are, close relationships and friendships. I find that I am happiest, proudest and most satisfied when I am with my closest family and friends or when I am sharing experiences with them. These people play a significant role in my life and the relationships I have with them is very important.&lt;/p&gt;
+
+&lt;p&gt;I think relationships and friendships are very important when dealing with difficult situations. If I were in a situation where stereotype threat was a threat, I do believe that those values would be able to mediate it.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Sep 2015 00:00:00 -0400</pubDate>
+        <link>http://mlefurge.github.io/blog/entry/2015/09/10/c7-values.html</link>
+        <guid isPermaLink="true">http://mlefurge.github.io/blog/entry/2015/09/10/c7-values.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>entry</category>
+        
+      </item>
+    
+      <item>
+        <title>Technical Entry 6 - Object Oriented Programming Concepts</title>
+        <description>&lt;p&gt;Blocks, procs and lambdas, oh my. I remember preparing for the DBC interview and going through CodeAcademys Ruby tract. I also remembered that there was an entire section on blocks, procs and lambdas but couldn’t really remember anything besides the fact that it existed. When I saw the blog prompt, I thought this would be a great opportunity for a refresher.&lt;/p&gt;
+
+&lt;p&gt;Lets start with blocks. Blocks are not objects. Strange, right? Well, its true. Blocks are actually just the little snippets of code that can be executed and that lie between curly braces or the do..end keywords.  Blocks are used by other methods. A method like #each will take the block and apply the expression to the method. Because a block is not an object, it cannot be saved to a variable. Fear not, that’s why procs exist.&lt;/p&gt;
+
+&lt;p&gt;A proc is a block that has been saved to a variable. Just like you can assign a variable the value of the integer three, you can also create a proc and give it the value of a block of code. This helps keeping your code DRY – once you create your proc, you can use it as many times as you need without having to rewrite the block of code. To create a block, all you need to do is call Proc.new and pass it the block of code that you want to save. Check out the example below.&lt;/p&gt;
+
+&lt;p&gt;Lambdas and procs are very similar. In fact, lambdas are objects of the proc class. One of the main differences between the two has to do with how it handles arguments. Procs don’t care if they receive the wrong number of arguments. They will simply ignore unexpected arguments and assign nil to any missing arguments. Lambas on the other hand, will raise an Argument error if passed the incorrect number of arguments. Another difference between the two is how they deal with control flow keywords (e.g., return and break). When Ruby encounters a return inside of a proc, it returns but does not pass control back to the calling method. After a lambda encounters a return, it will pass control back to the calling method.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/mlefurge/7d6bdb23a2a2f2ae369f.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Fri, 04 Sep 2015 00:00:00 -0400</pubDate>
+        <link>http://mlefurge.github.io/blog/entry/2015/09/04/t6-oop-concepts.html</link>
+        <guid isPermaLink="true">http://mlefurge.github.io/blog/entry/2015/09/04/t6-oop-concepts.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>entry</category>
+        
+      </item>
+    
+      <item>
+        <title>Cultural Entry 5 - Stereotype Threat</title>
+        <description>&lt;p&gt;My name is Matthew LeFurge and if the only thing you know me by is my name, email address or sound of my voice, you might think I am a white male, with maybe some French Canadian roots.  You probably wouldn’t have guessed that I was born in Korea and moved to the US when I was four months old to live with the family that adopted me. Growing up with two white parents in a predominately white rural town gives you a different perspective on things.&lt;/p&gt;
+
+&lt;p&gt;This whole idea of stereotype threat both amazes me and yet does not surprise me one bit. No one likes to be judged based purely on some visible characteristic. Right, wrong, or indifferent, it’s just not fair. You would think that an irrational snap judgment about you based on no actual proof or knowledge wouldn’t be that big of a deal. After all, sticks and stones will break my bones, but words will never hurt me. Unfortunately, that childhood saying only holds so much weight. Stereotypes can be awful and even though they are just words, they can be very powerful.&lt;/p&gt;
+
+&lt;p&gt;What amazes me is that how something so inaccurate, when said with hate, can have such a dramatic impact on you as a person. However, after reading more about Dr. Claude Steele’s theory and evidence, I started to think to myself, wow, this actually doesn’t surprise me one bit.  It almost reminds me of the ideas behind the fixed mindset. When you have an idea in your head, whether it’s a hurtful stereotype or the idea that your intelligence is fixed, it can have a big impact on your performance. When you aren’t on the receiving end of a stereotype, you might not be thinking about them that much. However, when a stereotype is being directed at you, and odds are it’s by more than one person and over the course of your life, it becomes easy to see how it stereotypes can eat away at someone. It becomes less surprising that someone would actually believe they fit a certain stereotype.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Sep 2015 00:00:00 -0400</pubDate>
+        <link>http://mlefurge.github.io/blog/entry/2015/09/04/c6-stereotype-threat.html</link>
+        <guid isPermaLink="true">http://mlefurge.github.io/blog/entry/2015/09/04/c6-stereotype-threat.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>entry</category>
+        
+      </item>
+    
+      <item>
+        <title>Technical Entry 5 - Ruby Classes</title>
+        <description>&lt;p&gt;In 2008 I graduated college with a degree in accounting. That same year, I took a job at an accounting firm in their corporate taxation group.  I thought to myself, could I really handle all the excitement that this next stage in my life would bring? Turns out, I could. Surprisingly though, those seven years were actually filled with some excitement. Sometimes the excitement came in in ways you might think (i.e., busy season crunch time) and sometimes it was in ways that would surprise you (i.e., an all expenses paid trip to Disney World).  For better or for worse, even after leaving the profession, taxes remain a part of my life. Whether its through family members asking me for tax advice or my fiancé getting her LLM in Taxation, I can’t seem to leave taxes behind.  I figure, what better way to bridge the last phase of my life with the next phase of my life than to make a Ruby Class example out of corporate tax!&lt;/p&gt;
+
+&lt;p&gt;Just like Ruby, the Internal Revenue Code is almost like speaking another language. It’s complex, convoluted, and terribly boring. But that’s also the reason why I was lucky enough to have a job when I graduated. I’ll try to keep the tax examples basic so that I can focus my time on explaining classes. Also, I apologize to any other tax accountants out there reading this entry.&lt;/p&gt;
+
+&lt;p&gt;Besides an intense passion for taxes and Ruby, why would you ever want to create a separate class in Ruby for taxes? What if you were trying to run some estimated tax calculations for a handful of entities? If you didn’t want to purchase expensive tax preparation software, you could write your own. You could create a class CorpTax and each instance of that class could call upon methods and variables that would calculate things such as your research and development tax credit, your depreciation expense, or even store things such as tax rates or tax credit carryovers from prior years.&lt;/p&gt;
+
+&lt;p&gt;Use the following explanation and code example below to see how we create this exciting new class.&lt;/p&gt;
+
+&lt;p&gt;The first step in creating the CorpTax class is to define the class. For non-tax folks out there, book income is one of the important starting points for corporate taxation. Therefore, you might want to initialize each object with book income. After setting up the initialization method, lets create an instance variable equal to book income. That way, if we need to access book income later on, we can use the instance variable. Another very important component of income tax is the tax rate. Since tax rates can vary, based on location or income levels, lets create a setter method for the tax rate. This gives us the ability to easily change the tax rate if we need to.  Finally, lets create a method that calculates a tax deduction. Let’s create the meals &amp;amp; entertainment tax deduction. Technically, it’s an add-back but lets remember that this is a coding program and not a tax course.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/mlefurge/fb7afa3bab2ea029cac3.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;For all you other tax accountants who are also aspiring Ruby programmers, feel free to create more methods representing all of the other fun and exciting tax calculations. Once you have done that, you can create different instances of the CorpTax class and use your methods to calculate the taxable income and tax for anything you want.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 27 Aug 2015 00:00:00 -0400</pubDate>
+        <link>http://mlefurge.github.io/blog/entry/2015/08/27/t5-ruby-classes.html</link>
+        <guid isPermaLink="true">http://mlefurge.github.io/blog/entry/2015/08/27/t5-ruby-classes.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>entry</category>
+        
+      </item>
+    
+      <item>
+        <title>Cultural Entry 4 - Feedback</title>
+        <description>&lt;p&gt;It’s like they say, “pairing is caring.” Wait, that doesn’t sound right… Anyway, if it wasn’t apparent in the Phase 0 Handbook or the DBC website or the DBC blog, its apparent now. Pairing is a big part of our curriculum.  I’ve never had a strong opinion one way or another when it came to working by myself or working with others. I find that both have their merits and I can be productive in both settings. With that said, I’ve really enjoyed the pairing sessions I’ve had so far during Phase 0.&lt;/p&gt;
+
+&lt;p&gt;One of the great things I’ve found about coding so far is that there often isn’t one correct way to do something. While there might be ways that are more efficient or ways that are fit the design of the program better, there are still numerous ways to get the same answer. Pairing on the challenges has introduced me to other people’s trains of thought and how they logically think through the solution.  One of the most beneficial things has been being able to see how other people think. It’s amazing to pair with people and listen to their strategies and then compare them to my own. More often than not, I find myself saying, wow, that’s a really good point, I need to remember that for the next time I’m working by myself.&lt;/p&gt;
+
+&lt;p&gt;Solving these challenges isn’t just about getting to the correct answer. It’s also about how you got to that answer and the logical steps you took. While it’s great when you and your pair are both on the same page, it’s also exciting when you aren’t.  I often find that I learn the most when I’m paired up with someone who does things completely different from me. They introduce me to new methods and new ways to approach a problem. While it can be a little frustrating at first, it ends up being a very rewarding pairing session.&lt;/p&gt;
+
+&lt;p&gt;Giving and receiving feedback is not all that new to me. At my last job, they had a very elaborate review process. It required writing and receiving very thorough feedback forms for any project you worked on. My old employer’s feedback process has a very similar feel to the feedback at DBC. The focus is on meaningful and actionable feedback. A lot of times, feedback can have the opposite affect than it should. It can often discourage people or frustrate people. No one likes hearing about the things they need to improve on. However, when someone writes me a piece of constructive feedback that is specific, actionable and kind, I don’t feel bad about myself or angry.&lt;/p&gt;
+
+&lt;p&gt;The feedback I’ve received so far has been very helpful. I’ve learned that sometimes I need to speak up more. I need to be more vocal and have my voice heard.  A lot of times when I am pairing, the last thing I want to do is to be rude, talk too much, and take over the conversation. As a result, I come off as shy and maybe not contributing as much as I should. Going forward, I know that I need to make more efforts to speak up. I don’t want my pair to think like I’m not contributing or like they have to do most of the work. Receiving the feedback encourages me to be a better pair and a better programmer.&lt;/p&gt;
+
+&lt;p&gt;Overall, I think the combination of pairing with immediate feedback is a great way for us to learn. It’s an amazing opportunity for us to learn about how other people work and also to hear about how other people perceive how we work.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Aug 2015 00:00:00 -0400</pubDate>
+        <link>http://mlefurge.github.io/blog/entry/2015/08/27/c5-feedback.html</link>
+        <guid isPermaLink="true">http://mlefurge.github.io/blog/entry/2015/08/27/c5-feedback.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>entry</category>
+        
+      </item>
+    
+      <item>
+        <title>Technical Entry 4 - Enumerable Methods</title>
+        <description>&lt;p&gt;Arrays have come up a lot in the last two weeks. It’s probably the reason behind me wanting to use an array to solve every challenge. It’s also probably the reason why that whenever I start typing any web site address that beings with the letter “r” my web browser autocompletes to ruby-doc.org/core-2.2.2/array.html.  In my research, I’ve often run across the method map.  I haven’t found many, if any, chances to use it so started wondering if it’s because I don’t actually know how to use it. So I figured, what better topic to do this blog entry on than the map method.&lt;/p&gt;
+
+&lt;p&gt;First things first, the method “map” and the method “collect” are they same and are used interchangeably. However, throughout this blog entry, I’ll keep things consistent and use only “map”.  Generally, when I start solving a challenge I begin with visiting the ruby docs. Even though I can’t understand the majority of their definitions, it’s a good place to start.  I looked up the definition of “map” and this one is actually pretty straightforward. It reads, “returns a new array with the results of running block once for every element in enum. If no block is given, an enumerator is returned instead.”&lt;/p&gt;
+
+&lt;p&gt;While the definition seems pretty straight forward, its still pretty dry and tough to really understand what map is capable of.  It might be best explained through a couple examples. Take a look at the examples below and the commentary that I have added.  Also, here’s a &lt;a href=&quot;https://www.youtube.com/watch?feature=player_embedded&amp;amp;v=1zWj9BReAX8&quot;&gt; short video&lt;/a&gt; that gives another good example of the map method.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/mlefurge/64f0a924047958bc5432.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Thu, 20 Aug 2015 00:00:00 -0400</pubDate>
+        <link>http://mlefurge.github.io/blog/entry/2015/08/20/t4-enumerale-methods.html</link>
+        <guid isPermaLink="true">http://mlefurge.github.io/blog/entry/2015/08/20/t4-enumerale-methods.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>entry</category>
+        
+      </item>
+    
+      <item>
+        <title>Cultural Entry 3 - Issues in the Technology Industry</title>
+        <description>&lt;p&gt;Do you know what I love about technology? Every year there’s a cool new phone for me to buy. Do you know what I hate about technology? Every year there’s a cool new phone for me to buy. It blows my mind to think about all the different things this handheld device can do. What many people may not be thinking about is, wow, what can this tiny device do that I don’t know about.&lt;/p&gt;
+
+&lt;p&gt;Technology advances at a stunning rate. You would go crazy, and probably broke, trying to keep up with all the latest gadgets. As technology advances, the laws and ethics surrounding new technologies don’t advance nearly as fast. A simple Google search will return a number of articles that address the issue of the gap between technology advances and the legal system. Unfortunately I’m not a lawyer or politician (nor am I attending a bootcamp to become a lawyer or politician) so I cannot add much more than my opinion on the subject of the slowly advancing laws. However, as someone looking to go into the tech sector, I think its incredibly crucial to consider the ethics of the technologies we are working with and/or creating.&lt;/p&gt;
+
+&lt;p&gt;I would like to think that most people generally agree on what is ethical. That’s not to say that there aren’t gray areas but in general, I would like to believe most people could tell good from bad. With that being said, I think the biggest issue the tech industry faces with regards to ethics has to do with a certain mindset. There are many people out there who might think that just because something isn’t illegal it makes it its okay and ethical to do. In the technology field, you can’t think like that. Due to the lag in laws, you cannot simply look at the legality of a technology or action and determine whether it’s ethically right or wrong. It’s an area where you should be looking beyond the law when you make your decision. Going forward it’s important for all of us that we continue to make ethics an important part of our lives in the tech sector.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Aug 2015 00:00:00 -0400</pubDate>
+        <link>http://mlefurge.github.io/blog/entry/2015/08/20/c4-tech-issues.html</link>
+        <guid isPermaLink="true">http://mlefurge.github.io/blog/entry/2015/08/20/c4-tech-issues.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>entry</category>
+        
+      </item>
+    
+  </channel>
+</rss>
