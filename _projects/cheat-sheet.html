@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Matt's Cheat-Sheet</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/default.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <section class="header">
+    <h1><span class="mainhead">def</span><span class="mainhead2"> cheat_sheet</span><span class="mainhead3">(dbc)</span></h1>
+  </section>
+
+  <section class="linkbar">
+    <div class="pages">
+      <a href="http://mlefurge.github.io/index.html">{ Home }</a>
+    </div>
+    <div class="pages">
+      <a href="http://mlefurge.github.io/blog_index.html">{ Blog }</a>
+    </div>
+    <div class="pages">
+      <a href="http://mlefurge.github.io/about_me.html">{ About Me }</a>
+      </div>
+    <div class="pages">
+      <a href="http://mlefurge.github.io/projects/index.html">{ Projects }</a>
+      </div>
+  </section>
+
+<section class="blog-post-heading">
+  <h3>Cheat Sheet</h3>
+</section>
+
+<section class="cheatsheet">
+  <div id="leftcolumn">
+
+    <p class="cheatsheethead"><strong>Git / GitHub</strong></p>
+
+      <section class="cheatsheetbody">
+
+        <p>Create, add, commit and push Branch</p>
+          <ul> - git check -b BRANCH_NAME</ul>
+          <ul> - git add . </ul>
+          <ul> - git commit -m "MESSAGE"</ul>
+          <ul> - git push origin BRANCH_NAME </ul>
+          <ul> - git co master </ul>
+          <ul> - git pull </ul>
+          <ul> - git branch -d BRANCH_NAME </ul>
+
+      </section>
+
+    <p class="cheatsheethead"><strong>Helpful Ruby Links</strong></p>
+
+      <section class="cheatsheetbody">
+        <p>Ruby Doc Links</p>
+        <ul><a href="http://ruby-doc.org/core-2.2.3/Array.html">Ruby Docs - Array</a></ul>
+        <ul><a href="http://ruby-doc.org/core-2.2.3/Hash.html">Ruby Docs - Hash</a></ul>
+        <ul><a href="http://ruby-doc.org/core-2.2.3/Enumerable.html">Ruby Docs - Enumerables</a></ul>
+        <p>Ruby Interpreters
+        <ul><a href="https://repl.it/languages/ruby">Ruby Interpreter - repl.it</a></ul>
+        <ul><a href="https://coderpad.io/">Coderpad</a></ul>
+
+      </section>
+
+
+
+  </div>
+
+  <div id="rightcolumn">
+
+    <p class="cheatsheethead"><strong>SQL</strong></p>
+
+      <section class="cheatsheetbody">
+
+        <p>Select an entire table</p>
+        <ul> SELECT * FROM * table_name;</ul>
+        <p>Select column from table</p>
+        <ul> SELECT column_name1,column_name2 FROM table_name;</ul>
+        <p> Select columns and sort by ascending or descending</p>
+        <ul> SELECT column_name1,column_name2 FROM table_name ORDER BY column_name2 DESC;</ul>
+        <ul> Note: ORDER BY defaults to ascending order </ul>
+        <p> Select items in a column based on criteria</p>
+        <ul> SELECT column_name1 from table_name WHERE column_name2 operator value;</ul>
+        <ul> Note: Operate value can equal: =, <> (not equal), <, >, <=, >=, BETWEEN, LIKE, IN.</ul>
+        <p> Select items in a column that contain certain characters</p>
+        <ul> SELECT column_name1 from table_name WHERE column_name1 LIKE 'desired_text' </ul>
+        <ul> Note: Wildcards: % = substitute for zero or more characters, _ = substitute for single character </ul>
+        <p><a href="http://www.w3schools.com/sql/default.asp">SQL Resources</a></p>
+
+      </section>
+
+  </div>
+
+</section>
+
+  <section class="footer">
+    <div class="footerlink">
+      <a href="https://www.facebook.com/matthew.lefurge"><img class="footerimg" src = "./images/facebook.jpeg"/></a>
+      <a href="https://twitter.com/furge6"><img class="footerimg" src = "./images/twitterlogo.png"/></a>
+      <a href="https://github.com/mlefurge"><img class="footerimg" src = "./images/github.png"/></a>
+      <a href="https://www.linkedin.com/pub/matthew-lefurge-cpa/30/8b8/890"><img class="footerimg" src = "./images/linkedin.png"/></a>
+    </div>
+  </section>
+
+</body>
+</html>

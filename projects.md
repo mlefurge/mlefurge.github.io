@@ -8,14 +8,11 @@ permalink: /projects/
   <h1 class="page-heading">Project Index</h1>
 
   <ul class="post-list">
-    {% for project in site.projects %}
       <li>
-
         <h2>
-          <a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+          <a class="post-link" href="cheat-sheet.html"> Cheat Sheet</a>
         </h2>
       </li>
-    {% endfor %}
   </ul>
 
 
